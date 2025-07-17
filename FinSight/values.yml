@@ -1,6 +1,6 @@
 ingress:
   host: localhost
-  path: /
+  path: /api/property
 property_service:
   image: ghcr.io/cndss25/property-service:latest
 mongodb:
