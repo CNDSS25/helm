@@ -1,0 +1,8 @@
+ingress:
+  host: localhost
+  path: /
+property_service:
+  image: ghcr.io/cndss25/property-service:latest
+mongodb:
+  image: mongo:latest
+  storageSize: 1Gi
